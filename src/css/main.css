@@ -1,5 +1,25 @@
+:root {
+  /* font */
+  --dispaly-font: 'Playfair Display', serif;
+  --normal-font: 'Roboto', serif;
+
+  /* bgcolor */
+  --bg-color: #fff;
+  --accent-color: rgb(50, 82, 208);
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: var(--dispaly-font);
+  font-weight: 900;
+}
+
+p {
+  font-family: var(--normal-font);
+  font-weight: 500;
 }
