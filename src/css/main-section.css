@@ -1,8 +1,10 @@
+/* main-section.css */
 #main-content {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 1000px;
+  padding-bottom: 2rem;
 }
 
 .main-container {

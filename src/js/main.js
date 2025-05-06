@@ -1,6 +1,8 @@
+// main.js
 import '../css/main.css';
 import '../css/header.css';
 import '../css/main-section.css';
+import '../css/footer.css';
 
 class Card {
     constructor(imgSrc, imgAltText, projectName, githubRepoLink, demoLink, description) {
@@ -16,14 +18,14 @@ class Card {
         const cardContainer = document.createElement('article');
         cardContainer.classList.add('card-container');
         const safeId = `project-${this.projectName.toLowerCase().replace(/\s+/g, '-')}`;
-        cardContainer.ariaLabelledBy = safeId;
+        cardContainer.setAttribute('aria-labelledby', safeId);
         cardContainer.innerHTML = `<img src="${this.imgSrc}" alt="${this.imgAltText}" />
         <div class="card-title">
             <h3 class="card-name" id=${safeId}>${this.projectName}</h3>
             <div class="card-link-container">
                 <a href="${this.githubRepoLink}" class="social-link" aria-label="GitHub Repo">
                     <i class="devicon-github-original-wordmark icon" aria-hidden="true"></i>
-                    <span class="sr-only">GitHub</span>
+                    <span class="sr-only">GitHub repository for ${this.projectName}</span>
                 </a>
                 <a href="${this.demoLink}" class="social-link" aria-label="Project Demo" target="_blank">
                     <object data="svg/open-in-new.svg" type="image/svg+xml" class="openInNew" width="20" height="20"

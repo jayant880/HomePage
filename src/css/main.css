@@ -1,3 +1,4 @@
+/* main.css */
 :root {
   /* font */
   --display-font: 'Playfair Display', serif;
@@ -5,11 +6,15 @@
 
   /* bgcolor */
   --bg-color: #fff;
-  --accent-color: rgb(32, 64, 191);
+  --accent-color: rgb(24, 48, 144);
   --text-color: #333;
   --link-color: #1a44b8;
   --link-hover-color: #0d2b7c;
   --focus-outline-color: #4d76ff;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -54,6 +59,7 @@ body {
   transform: translateY(-2px) scale(1.1);
   color: var(--link-hover-color);
   outline: none;
+  cursor: pointer;
 }
 
 .social-link:focus-visible {
