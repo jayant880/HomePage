@@ -8,10 +8,13 @@ export default [
             parser: babelParser,
             parserOptions: {
                 requireConfigFile: false,
+                ecmaVersion: 2021,
                 sourceType: 'module',
-                ecmaVersion: 'latest',
             },
             globals: {
+                document: 'readonly',
+                window: 'readonly',
+                fetch: 'readonly',
                 console: 'readonly',
             },
         },

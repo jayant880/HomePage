@@ -1,0 +1,84 @@
+{
+  "projects": [
+    {
+      "imgSrc": "https://placehold.co/300x200/FF6B6B/FFFFFF?text=Weather+Dashboard&font=roboto",
+      "imgAltText": "Weather App Screenshot",
+      "projectName": "Weather Dashboard",
+      "githubRepoLink": "https://github.com/user/weather-app",
+      "demoLink": "https://user.github.io/weather-app",
+      "description": "A responsive weather application that displays current conditions and 5-day forecast using the OpenWeather API."
+    },
+    {
+      "imgSrc": "https://placehold.co/300x200/4ECDC4/333333?text=Task+Manager+Pro&font=roboto",
+      "imgAltText": "Task Manager Screenshot",
+      "projectName": "Task Manager Pro",
+      "githubRepoLink": "https://github.com/user/task-manager",
+      "demoLink": "https://user.github.io/task-manager",
+      "description": "A productivity app with drag-and-drop functionality for organizing tasks with due dates and priorities."
+    },
+    {
+      "imgSrc": "https://placehold.co/300x200/1A535C/F7FFF7?text=Recipe+Finder&font=roboto",
+      "imgAltText": "Recipe Finder Screenshot",
+      "projectName": "Recipe Finder",
+      "githubRepoLink": "https://github.com/user/recipe-finder",
+      "demoLink": "https://user.github.io/recipe-finder",
+      "description": "Search for recipes by ingredient with nutritional information and step-by-step cooking instructions."
+    },
+    {
+      "imgSrc": "https://placehold.co/300x200/FFB400/000000?text=Fashion+Store&font=roboto",
+      "imgAltText": "E-commerce Site Screenshot",
+      "projectName": "Fashion Store",
+      "githubRepoLink": "https://github.com/user/fashion-store",
+      "demoLink": "https://user.github.io/fashion-store",
+      "description": "A mock e-commerce site with product filtering, cart functionality, and checkout process."
+    },
+    {
+      "imgSrc": "https://placehold.co/300x200/6A0572/F1F1F1?text=Budget+Tracker&font=roboto",
+      "imgAltText": "Budget Tracker Screenshot",
+      "projectName": "Budget Tracker",
+      "githubRepoLink": "https://github.com/user/budget-tracker",
+      "demoLink": "https://user.github.io/budget-tracker",
+      "description": "Visualize your spending with interactive charts and set monthly budget goals."
+    },
+    {
+      "imgSrc": "https://placehold.co/300x200/3E92CC/FFFFFF?text=Workout+Planner&font=roboto",
+      "imgAltText": "Fitness App Screenshot",
+      "projectName": "Workout Planner",
+      "githubRepoLink": "https://github.com/user/workout-planner",
+      "demoLink": "https://user.github.io/workout-planner",
+      "description": "Create custom workout routines with exercise demonstrations and progress tracking."
+    },
+    {
+      "imgSrc": "https://placehold.co/300x200/6F1E51/ECECEC?text=Digital+Library&font=roboto",
+      "imgAltText": "Book Library Screenshot",
+      "projectName": "Digital Library",
+      "githubRepoLink": "https://github.com/user/digital-library",
+      "demoLink": "https://user.github.io/digital-library",
+      "description": "Catalog your book collection with search and filtering by genre, author, or reading status."
+    },
+    {
+      "imgSrc": "https://placehold.co/300x200/00A8E8/FFFFFF?text=Instant+Messenger&font=roboto",
+      "imgAltText": "Chat App Screenshot",
+      "projectName": "Instant Messenger",
+      "githubRepoLink": "https://github.com/user/instant-messenger",
+      "demoLink": "https://user.github.io/instant-messenger",
+      "description": "A real-time chat application with multiple rooms and user authentication."
+    },
+    {
+      "imgSrc": "https://placehold.co/300x200/A9DEF9/000000?text=Artist+Portfolio&font=roboto",
+      "imgAltText": "Portfolio Site Screenshot",
+      "projectName": "Artist Portfolio",
+      "githubRepoLink": "https://github.com/user/artist-portfolio",
+      "demoLink": "https://user.github.io/artist-portfolio",
+      "description": "A responsive gallery to showcase artwork with lightbox viewing and category filtering."
+    },
+    {
+      "imgSrc": "https://placehold.co/300x200/F26419/FFFFFF?text=Memory+Game&font=roboto",
+      "imgAltText": "Game Screenshot",
+      "projectName": "Memory Game",
+      "githubRepoLink": "https://github.com/user/memory-game",
+      "demoLink": "https://user.github.io/memory-game",
+      "description": "A card matching game with timer, move counter, and different difficulty levels."
+    }
+  ]
+}

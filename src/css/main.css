@@ -1,6 +1,6 @@
 :root {
   /* font */
-  --dispaly-font: 'Playfair Display', serif;
+  --display-font: 'Playfair Display', serif;
   --normal-font: 'Roboto', sans-serif;
 
   /* bgcolor */
@@ -19,6 +19,10 @@ body {
   background-color: whitesmoke;
   color: var(--text-color);
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skip-link {
@@ -36,7 +40,40 @@ body {
   top: 0;
 }
 
-/* .icon:hover {
+.social-link {
+  color: var(--link-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  transition: all 250ms ease-in-out;
+}
+
+.social-link:hover,
+.social-link:focus {
   transform: translateY(-2px) scale(1.1);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-} */
+  color: var(--link-hover-color);
+  outline: none;
+}
+
+.social-link:focus-visible {
+  outline: 3px solid var(--focus-outline-color);
+  outline-offset: 3px;
+  border-bottom: 4px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.icon {
+  font-size: x-large;
+}
