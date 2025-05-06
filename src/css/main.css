@@ -83,3 +83,9 @@ body {
 .icon {
   font-size: x-large;
 }
+
+@media screen and (max-width: 326px) {
+  body {
+    min-width: 325px;
+  }
+}
